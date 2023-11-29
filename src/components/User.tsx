@@ -27,7 +27,7 @@ export const User = ({
                 <p className={classes.number}>{following}</p>
             </div>
 
-            <Link target="_blank" to={`https://github.com/${login}`}>Ver melhores projetos</Link>
+            <Link target="_blank" to={`https://github.com/${login}`}>Entrar no perfil do github</Link>
         </div>
 
 
