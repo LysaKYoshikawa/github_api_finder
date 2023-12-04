@@ -71,10 +71,13 @@
     font-family: "Inter", sans-serif;
     line-height: 2.0;
     margin: 15px;
+    
 
 }
 
 .bio svg {
     fill: #4ed8c7;
     font-size: 1.5rem;
+    margin-right: 5px;
+
 }
