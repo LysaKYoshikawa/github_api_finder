@@ -1,4 +1,5 @@
 # Github Finder Typescript :star:
+![image](https://github.com/LysaKYoshikawa/github_api_finder/assets/64383080/ee303686-d237-4553-b47f-977cc51f7f55)
 
 # :star: About the project
 
