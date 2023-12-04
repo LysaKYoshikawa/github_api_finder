@@ -23,7 +23,7 @@ export const Home = () => {
             return;
         }
 
-        const { avatar_url, login, location, followers, following} = data;
+        const { avatar_url, login, location, followers, following, bio} = data;
 
         const userData: UserProps = {
             avatar_url,
@@ -31,6 +31,7 @@ export const Home = () => {
             location,
             followers,
             following,
+            bio,
         };
 
         setUser(userData);
