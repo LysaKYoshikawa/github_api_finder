@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Github Finder Typescript :star:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# :star: About the project
 
-Currently, two official plugins are available:
+This project aims to connect to the github api, you can enter the username and it will return the general information and data of the github account.
+If the user is not located, a personalized error image will appear.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :pushpin: Used Technologies
+- React
+- Typescript
+- Vite
+- Api Github
+- css
 
-## Expanding the ESLint configuration
+## :pushpin: How to run the project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Clone the repository
+ $ git clone https://github.com/LysaKYoshikawa/github_api_finder
+- Text editor
+It is desirable to have a text editor like VSC
+  
+- Open the document
+Open the text editor inside the folder where you saved the project clone
 
-- Configure the top-level `parserOptions` property like this:
+execute no terminal:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```terminal
+npm install
+npm run dev
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# :pushpin: Author
+Monalysa Klauck Yoshikawa
+[Linkedin] : <https://www.linkedin.com/in/monalysa-yoshikawa/>
