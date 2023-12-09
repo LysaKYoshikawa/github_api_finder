@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Search } from "../components/Search";
+import { Search } from "../components/Search/Search";
 import { UserProps } from "../types/user";
-import  { User }  from "../components/User";
-import { Error } from "../components/Error";
+import  { User }  from "../components/User/User";
+import { Error } from "../components/Error/Error";
 
 
 export const Home = () => {

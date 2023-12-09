@@ -1,5 +1,5 @@
 import React from 'react'
-import { UserProps } from '../types/user';
+import { UserProps } from '../../types/user';
 import { MdLocationPin, MdRocket } from "react-icons/md";
 import {Link} from 'react-router-dom';
 import classes from "./User.module.css";
